@@ -22,7 +22,8 @@ website:
         text: Media
       - href: Untitled-1.qmd
         text: Quarto Test
-      - href: CV.qmd
+      - icon: file-earmark-person
+        href: CV.qmd
         text: CV
 
 
