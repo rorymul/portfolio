@@ -1,0 +1,24 @@
+---
+title: "Welcome to My ePortfolio 👋"
+subtitle: "Rory Mulhern"
+image: images/headshot.png
+
+about:
+  template: solana
+  image-width: 20em
+  links:
+    - icon: github
+      href: https://github.com/rorymul
+    - icon: linkedin
+      href: https://www.linkedin.com/in/rorymulhern
+    - icon: envelope
+      href: mailto:mulhernrory9gmail.com
+    - icon: file-earmark-person
+      href: CV.qmd
+
+theme:
+  light: lux
+page-layout: full
+---
+
+Here, you’ll find a collection of my academic projects, achievements, and experiences from the past 4 years. This space showcases my work, interests, and insights, offering a glimpse into my journey and aspirations. Feel free to explore, connect with me on LinkedIn, or reach out if you have any questions, I’m always happy to chat!

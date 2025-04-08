@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Mysite"
+  favicon: images/favicon2.png
+  navbar:
+    fixed: true
+    background: primary
+    search: false
+    title: false
+    logo: images/favicon2.png
+    right:
+      - icon: person-lines-fill
+        href: about.qmd
+        text: About Me
+      - icon: journal-bookmark-fill
+        href: projects.qmd
+        text: Projects
+      - icon: camera-reels
+        href: media.qmd
+        text: Media
+      - href: Untitled-1.qmd
+        text: Quarto Test
+
+
+
+  sidebar:
+    - title: "Projects"
+      contents:
+        - projects/business_strategy.qmd
+        - projects/data_project.qmd
+        - projects/econometrics_model.qmd
+        - projects/NED.qmd
+        - projects/pythonml.qmd
+        - projects/sustainability.qmd
+
+        
+
+format:
+  html:
+    theme:
+      light: 
+      - lux
+      - style.scss
+    mainfont: Afacad Flux
+    page-layout: full
+    css: 
+      - styles.css
+      - style.scss
+    toc: false
+
+
+
